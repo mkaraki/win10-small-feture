@@ -473,7 +473,7 @@ ManualLaunchAllowed"=dword:00000001
 // Control Panel
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
 "AllowOnlineTips"=dword:00000000
-"SettingsPageVisibility"="showonly:about;windowsupdate"
+; "SettingsPageVisibility"="showonly:about;windowsupdate"
 
 // App-V
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\AppV\Client]
