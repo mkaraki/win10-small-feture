@@ -1,13 +1,13 @@
 Windows Registry Editor Version 5.00
-// Registracted Windows
+; Registracted Windows
 
-// ActiveX Install Policy
+; ActiveX Install Policy
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\AxInstaller\AxISURLZonePolicies]
 "InstallTrustedOCX"=dword:00000000
 
-// BitLocker
+; BitLocker
 
-// Internet Explorer
+; Internet Explorer
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Internet Explorer\Activities]
 "NoActivities"=dword:00000001
 
@@ -24,22 +24,22 @@ Windows Registry Editor Version 5.00
 "EnableAlternativeCodec"="no"
 "AutoSearch"=dword:00000000
 
-// Mobile Device Management
+; Mobile Device Management
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\MDM]
 "DisableRegistration"=dword:00000001
 
-// Maps
+; Maps
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Maps]
 "AutoDownloadAndUpdateMapData"=dword:00000000
 
-// Adobe Flash
+; Adobe Flash
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MicrosoftEdge\Addons]
 "FlashPlayerEnabled"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MicrosoftEdge\Security]
 "FlashClickToRunMode"=dword:00000000
 
-// MS Edge
+; MS Edge
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MicrosoftEdge\Main]
 "AllowInPrivate"=dword:00000000
 "Cookies"=dword:00000000
@@ -64,15 +64,15 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MicrosoftEdge\ServiceUI]
 "AllowWebContentOnNewTabPage"=dword:00000000
 
-// Edge Windows Defender
+; Edge Windows Defender
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MicrosoftEdge\PhishingFilter]
 "EnabledV9"=dword:00000000
 
-// FIDO
+; FIDO
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\FIDO]
 "AllowExternalDeviceSignon"=dword:00000000
 
-// User Experience Virtualization
+; User Experience Virtualization
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\UEV\Agent\Configuration]
 "SyncEnabled"=dword:00000000
 "SyncMethod"="None"
@@ -80,42 +80,42 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\UEV\Agent]
 "Enabled"=dword:00000000
 
-// MS Account
+; MS Account
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MicrosoftAccount]
 "DisableUserAuth"=dword:00000001
 
-// Auth
+; Auth
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\SecondaryAuthenticationFactor]
 "AllowSecondaryAuthenticationDevice"=dword:00000000
 
-// Remote Desktop
+; Remote Desktop
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Conferencing]
 "NoRDS"=dword:00000001
 
-// OneDrive
+; OneDrive
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\OneDrive]
 "DisableFileSyncNGSC"=dword:00000001
 "PreventNetworkTrafficPreUserSignIn"=dword:00000001
 
-// OOBE
+; OOBE
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\OOBE]
 "DisablePrivacyExperience"=dword:00000001
 
-// Sync
+; Sync
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\SettingSync]
 "DisableSettingSync"=dword:00000002
 "DisableSettingSyncUserOverride"=dword:00000001
 
-// Feed
+; Feed
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Internet Explorer\Feeds]
 "DisableAddRemove"=dword:00000001
 "DisableFeedPane"=dword:00000001
 
-// Add Feture Prompt
+; Add Feture Prompt
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer\WAU]
 "Disabled"=dword:00000001
 
-// Windows Defender
+; Windows Defender
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
 "EnableSmartScreen"=dword:00000000
 
@@ -144,7 +144,7 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender]
 "DisableAntiSpyware"=dword:00000000
 
-// Windows Hello for Business
+; Windows Hello for Business
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\PassportForWork]
 "Enabled"=dword:00000000
 "RequireSecurityDevice"=dword:00000001
@@ -159,55 +159,55 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WinBio\Credential Provider]
 "Domain Accounts"=dword:00000000
 
-// Windows Ink
+; Windows Ink
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsInkWorkspace]
 "AllowWindowsInkWorkspace"=dword:00000000
 
-// Windows Media Center
+; Windows Media Center
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsMediaCenter]
 "MediaCenter"=dword:00000001
 
-// WMP
+; WMP
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsMediaPlayer]
 "PreventLibrarySharing"=dword:00000001
 "DontUseFrameInterpolation"=dword:00000001
 "DesktopShortcut"="no"
 "QuickLaunchShortcut"="no"
 
-// DRM
+; DRM
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WMDRM]
 "DisableOnline"=dword:00000001
 
-// Windows Messanger
+; Windows Messanger
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Messenger\Client]
 "PreventRun"=dword:00000001
 
-// PowerShell
+; PowerShell
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\PowerShell]
 "EnableScripts"==dword:00000000
 "ExecutionPolicy"=dword:00000000
 
-// Game DVR
+; Game DVR
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\GameDVR]
 "AllowGameDVR"=dword:00000000
 
-// msiexec
+; msiexec
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Installer]
 "DisableMSI"=dword:00000002
 
-// Windows Error Reporting
+; Windows Error Reporting
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Error Reporting]
 "Disabled"=dword:00000001
 
-// Windows Color
+; Windows Color
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsColorSystem]
 "ProhibitInstallUninstall"=dword:00000001
 
-// Calender
+; Calender
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Windows]
 "TurnOffWinCal"=dword:00000001
 
-// Windows Security
+; Windows Security
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender Security Center\Systray]
 "HideSystray"=dword:00000001
 
@@ -243,23 +243,23 @@ Windows Registry Editor Version 5.00
 "CompanyName"="mkaraki apps"
 "Url"="https://mkaraki.github.io/win10-small-feture/"
 
-// Mail
+; Mail
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Mail]
 ManualLaunchAllowed"=dword:00000001
 
-// Mobility Center
+; Mobility Center
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\MobilityCenter]
 "NoMobilityCenter"=dword:00000001
 
-// Win RM
+; Win RM
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WinRM\Service\WinRS]
 "AllowRemoteShellAccess"=dword:00000000
 
-// WMI
+; WMI
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Reliability Analysis\WMI]
 "WMIEnable"=dword:00000000
 
-// App Privacy
+; App Privacy
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\AppPrivacy]
 "LetAppsGetDiagnosticInfo"=dword:00000002
 "LetAppsSyncWithDevice"=dword:00000002
@@ -281,7 +281,7 @@ ManualLaunchAllowed"=dword:00000001
 "LetAppsAccessGazeInput"=dword:00000002
 "LetAppsRunInBackground"=dword:00000002
 
-// App Compatible
+; App Compatible
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\AppCompat]
 "VDMDisallowed"=dword:00000001
 "DisableEngine"=dword:00000001
@@ -290,7 +290,7 @@ ManualLaunchAllowed"=dword:00000001
 "DisablePropPage"=dword:00000001
 "DisableUAR"=dword:00000001
 
-// Appx
+; Appx
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Appx]
 "AllowDevelopmentWithoutDevLicense"=dword:00000000
 "RestrictAppToSystemVolume"=dword:00000001
@@ -299,11 +299,11 @@ ManualLaunchAllowed"=dword:00000001
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\AppModel\StateManager]
 "AllowSharedLocalAppData"=dword:00000000
 
-// IIS
+; IIS
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\IIS]
 "PreventIISInstall"=dword:00000001
 
-// explorer Backup
+; explorer Backup
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\PreviousVersions]
 "DisableBackupRestore"=dword:00000001
 "HideBackupEntries"=dword:00000001
@@ -312,67 +312,67 @@ ManualLaunchAllowed"=dword:00000001
 "DisableLocalRestore"=dword:00000001
 "DisableLocalPage"=dword:00000001
 
-// Online Help
+; Online Help
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Assistance\Client\1.0]
 "NoActiveHelp"=dword:00000001
 
-// Camera
+; Camera
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Camera]
 "AllowCamera"=dword:00000000
 
-// Microsoft Consumer Experience
+; Microsoft Consumer Experience
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CloudContent]
 "DisableWindowsConsumerFeatures"=dword:00000001
 "DisableSoftLanding"=dword:00000001
 
-// Sound Recorder
+; Sound Recorder
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\SoundRecorder]
 "Soundrec"=dword:00000000
 
-// Windows Store
+; Windows Store
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsStore]
 "DisableStoreApps"=dword:00000001
 "RemoveWindowsStore"=dword:00000001
 
-// TabPC
+; TabPC
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\TabletPC]
 "DisableNoteWriterPrinting"=dword:00000001
 "DisableSnippingTool"=dword:00000001
 "DisableJournal"=dword:00000001
 
-// Touch Key
+; Touch Key
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\TabletTip\1.7]
 "DisablePrediction"=dword:00000000
 "PasswordSecurityState"=dword:00000000
 
-// Touch/Writing Keyboard
+; Touch/Writing Keyboard
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\TextInput]
 "AllowLinguisticDataCollection"=dword:00000000
 "AllowLanguageFeaturesUninstall"=dword:00000000
 
-// Digital Locker
+; Digital Locker
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Digital Locker]
 "DoNotRunDigitalLocker"=dword:00000001
 
-// DWM
+; DWM
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DWM]
 "DisallowColorizationColorChanges"=dword:00000001
 "DisallowAnimations"=dword:00000001
 "DisableAccentGradient"=dword:00000001
 
-// Find My Device
+; Find My Device
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\FindMyDevice]
 "AllowFindMyDevice"=dword:00000000
 
-// Add Domain Device
+; Add Domain Device
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WorkplaceJoin]
 "autoWorkplaceJoin"=dword:00000000
 
-// Diagnostic Data Viewer
+; Diagnostic Data Viewer
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DataCollection]
 "DisableDiagnosticDataViewer"=dword:00000001
 
-// Backup
+; Backup
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Backup\Client]
 "DisableSystemBackupUI"=dword:00000001
 "DisableBackupUI"=dword:00000001
@@ -382,27 +382,27 @@ ManualLaunchAllowed"=dword:00000001
 "DisableBackupToOptical"=dword:00000001
 "DisableRestoreUI"=dword:00000001
 
-// FileHistory
+; FileHistory
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\FileHistory]
 "Disabled"=dword:00000001
 
-// Windows To Go
+; Windows To Go
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\PortableOperatingSystem]
 "Launcher"=dword:00000000
 
-// Home Group
+; Home Group
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\HomeGroup]
 "DisableHomeGroup"=dword:00000001
 
-// Windows Presentation
+; Windows Presentation
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\PresentationSettings]
 "NoPresentationSettings"=dword:00000001
 
-// Message Service Cloud Sync
+; Message Service Cloud Sync
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Messaging]
 "AllowMessageSync"=dword:00000000
 
-// Remote Desktop Client
+; Remote Desktop Client
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services\Client]
 "fClientDisableUDP"=dword:00000001
 "PromptForCredsOnClient"=dword:00000001
@@ -411,18 +411,18 @@ ManualLaunchAllowed"=dword:00000001
 "AllowUnsignedFiles"=dword:00000000
 "fUsbRedirectionEnableMode"=dword:00000001
 
-// Windows Location And Sensors
+; Windows Location And Sensors
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\LocationAndSensors]
 "DisableWindowsLocationProvider"=dword:00000001
 "DisableSensors"=dword:00000001
 "DisableLocationScripting"=dword:00000001
 "DisableLocation"=dword:00000001
 
-// Windows Connect
+; Windows Connect
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Connect]
 "AllowProjectionToPC"=dword:00000000
 
-// Windows Search
+; Windows Search
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search]
 "AllowCortana"=dword:00000000
 "AllowCortanaAboveLock"=dword:00000000
@@ -438,31 +438,31 @@ ManualLaunchAllowed"=dword:00000001
 "PreventUsingAdvancedIndexingOptions"=dword:00000001
 "PreviewPaneLocation"=dword:00000000
 
-// Biometrics
+; Biometrics
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Biometrics]
 "Enabled"=dword:00000000
 
-// Edge UI
+; Edge UI
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\EdgeUI]
 "AllowEdgeSwipe"=dword:00000000
 "DisableHelpSticker"=dword:00000001
 
-// Auto Play
+; Auto Play
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
 "NoDriveTypeAutoRun"=dword:000000FF
 
-// Cred UI
+; Cred UI
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CredUI]
 "DisablePasswordReveal"=dword:00000001
 "EnumerateAdministrators"=dword:00000000
 
-// Personalization
+; Personalization
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Personalization]
 "NoChangingLockScreen"=dword:00000001
 "NoLockScreenCamera"=dword:00000001
 "NoLockScreenSlideshow"=dword:00000001
 
-// Locale
+; Locale
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\MUI\Settings]
 "PreferredUILanguages"="en-US"
 "MachineUILock"=dword:00000001
@@ -470,16 +470,16 @@ ManualLaunchAllowed"=dword:00000001
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\InputPersonalization]
 "AllowInputPersonalization"=dword:00000000
 
-// Control Panel
+; Control Panel
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
 "AllowOnlineTips"=dword:00000000
 ; "SettingsPageVisibility"="showonly:about;windowsupdate"
 
-// App-V
+; App-V
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\AppV\Client]
 "Enabled"=dword:00000000
 
-// Windows System OS Policy
+; Windows System OS Policy
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
 "AllowClipboardHistory"=dword:00000000
 "EnableActivityFeed"=dword:00000000
@@ -487,14 +487,14 @@ ManualLaunchAllowed"=dword:00000001
 "UploadUserActivities"=dword:00000000
 "AllowCrossDeviceClipboard"=dword:00000000
 
-// Windows Time Service
+; Windows Time Service
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\W32Time\TimeProviders\NtpClient]
 "Enabled"=dword:00000000
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\W32Time\TimeProviders\NtpServer]
 "Enabled"=dword:00000000
 
-// Access Denied Prompt
+; Access Denied Prompt
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\ADR\AccessDenied]
 "Enabled"=dword:00000001
 "ErrorMessage"="The file or directory can not access. (Access Denied by win10-small-feture project)"
@@ -503,7 +503,7 @@ ManualLaunchAllowed"=dword:00000001
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer]
 "EnableShellExecuteFileStreamCheck"=dword:00000001
 
-// Internet Filter
+; Internet Filter
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\Printers]
 "DisableHTTPPrinting"=dword:00000001
 "DisableWebPnPDownload"=dword:00000001
@@ -519,34 +519,34 @@ ManualLaunchAllowed"=dword:00000001
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\SQMClient\Windows]
 "CEIPEnable"=dword:00000000
 
-// Help Center
+; Help Center
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\PCHealth\HelpSvc]
 "Headlines"=dword:00000000
 "MicrosoftKBSearch"=dword:00000000
 
-// System Restore
+; System Restore
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\SystemRestore]
 "DisableSR"=dword:00000001
 "DisableConfig"=dword:00000001
 
-// Removal Storage
+; Removal Storage
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\RemovableStorageDevices]
 "Deny_All"=dword:00000001
 
-// Remote Assistant
+; Remote Assistant
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services]
 "fAllowUnsolicited"=dword:00000000
 
-// DynamicLock
+; DynamicLock
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
 "DynamicLock"=dword:00000000
 
-// Lock Screen
+; Lock Screen
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
 "DisableLockScreenAppNotifications"=dword:00000001
 "EnableFirstLogonAnimation"=dword:00000000
 
-// Shutdown
+; Shutdown
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT]
 "DontPowerOffAfterShutdown"=dword:00000001
 
@@ -557,7 +557,7 @@ ManualLaunchAllowed"=dword:00000001
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
 "VerboseStatus"=dword:00000001
 
-// Taskbar/Start
+; Taskbar/Start
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer]
 "StartPinAppsWhenInstalled"=dword:00000000
 "HideRecentlyAddedApps"=dword:00000001
